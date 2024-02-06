@@ -1,0 +1,99 @@
+.app-aboutus {
+    position: relative;
+}
+
+.app-aboutus-content {
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.app-aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.app-aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-aboutus-content_about p,
+.app-aboutus-content_history p {
+    margin: 2rem 0;
+    color: #000000;
+}
+.image-container {
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 375px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .caption-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 25, 29, 0.537); /* Transparent black background */
+    padding: 10px;
+  }
+  
+  .caption-text {
+    margin: 0;
+    text-align: center;
+  }
+
+.buffer{
+    height: 20px;
+}
+
+@media screen and (min-width: 2000px) {
+
+    .app-aboutus-content_about p,
+    .app-aboutus-content_history p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app-aboutus-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}

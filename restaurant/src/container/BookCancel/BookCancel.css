@@ -1,0 +1,22 @@
+.cancel-booking-body {
+    max-width: 600px;
+    margin: 2em auto;
+    margin-bottom: 360px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #fdfdfd;
+    color: black;
+}

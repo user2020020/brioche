@@ -1,0 +1,20 @@
+.card-menu{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  text-align: center;
+  background-color: #dfdfdf;
+  margin: 10px;
+}
+.card-menu img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  .card-body{
+    margin-top: 10px;
+    background-color: #000000;
+    color: #dfdfdf;
+  }
